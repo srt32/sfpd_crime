@@ -15,11 +15,10 @@ barplot(
 )
 
 HoursStringToInt <- function(string) {
-  #as.numeric(strsplit(string, ":")[[1]][1])
   (strsplit(string, ":")[[1]][1])
 }
 
-# histrogram by HOD
+# barplot by HOD
 thefts.auto.tod <- thefts.auto[,c("IncidntNum", "Time")]
 thefts.auto.tod.normalized <- cbind(
   thefts.auto.tod, TimeInt = mapply(HoursStringToInt, thefts.auto.tod$Time)

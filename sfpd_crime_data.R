@@ -21,9 +21,8 @@ HoursStringToInt <- function(string) {
 # barplot by HOD
 thefts.auto.tod <- thefts.auto[,c("IncidntNum", "Time")]
 thefts.auto.tod.normalized <- cbind(
-  thefts.auto.tod, TimeInt = mapply(HoursStringToInt, thefts.auto.tod$Time)
+  thefts.auto.tod, Hour = mapply(HoursStringToInt, thefts.auto.tod$Time)
 )
-colnames(thefts.auto.tod.normalized) <- c("IncidntNum", "Time", "Hour")
 head(thefts.auto.tod.normalized)
 
 barplot(table(thefts.auto.tod.normalized$Hour))

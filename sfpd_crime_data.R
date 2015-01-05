@@ -1,5 +1,5 @@
 # pull in data
-file = file.path("/Users/Simon/Projects/Personal/sfpd_crime/SFPD_2014.csv")
+file = file.path("/Users/Simon/Projects/Personal/sfpd_crime/data/SFPD_2014.csv")
 data = read.csv(file, stringsAsFactors=FALSE)
 
 # filter by theft from auto

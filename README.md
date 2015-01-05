@@ -9,8 +9,8 @@ https://data.sfgov.org/Public-Safety/SFPD-Incidents-Current-Year-2014-/tmnf-yvry
 
 ## Thefts from autos by day of week
 
-[Imgur](http://i.imgur.com/LLr94EI.png)
+![Imgur](http://i.imgur.com/LLr94EI.png)
 
 ## Thefts from autos by time of day
 
-[Imgur](http://i.imgur.com/7Hvz6bW.png)
+![Imgur](http://i.imgur.com/7Hvz6bW.png)
